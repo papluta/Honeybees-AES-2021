@@ -9,8 +9,6 @@ library(effectsize)
 options(na.action='na.fail') # for partR2
 
 
-## change names in fig
-
 # load data
 data <- read.table("data_hb2021.csv", header=TRUE, stringsAsFactors=TRUE, sep=",", na.strings="NA", dec=".", strip.white=TRUE)
 survival <- read.table("wintermortality2021_binom.csv", header=TRUE, stringsAsFactors=TRUE, sep=",", na.strings="NA", dec=".", strip.white=TRUE)
